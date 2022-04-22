@@ -1,0 +1,8 @@
+spring:
+    main:
+        banner-mode: "off"
+
+google:
+    maps:
+        key: ${GOOGLE_MAPS_API_KEY:}
+        host: "https://maps.googleapis.com/maps/api"
